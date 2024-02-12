@@ -12,6 +12,7 @@ public class Calculadora {
         Substraction objResta = new Substraction();
         Multiplication objMultiplicacion = new Multiplication();
         Division objDivision = new Division();
+        Porcentaje objPorcentaje = new Porcentaje();
 		
 		do {
 			
@@ -21,6 +22,8 @@ public class Calculadora {
 			System.out.println("2. Resta.");
 			System.out.println("3. Multiplicacion.");
 			System.out.println("4. Division.");
+			System.out.println("5. Raiz Cuadrada.");
+			System.out.println("6. Porcentaje. ");
 			System.out.println("0. Salir.");
 			opcion = lapiz.nextInt();
 			
@@ -29,23 +32,30 @@ public class Calculadora {
 			case 1:
 				
 			objSuma.Suma();
+			
 			break;
 			
 			case 2:
 				
 		    objResta.Resta();
+		    
 		    break;
 		    
 			case 3:
 				
 			objMultiplicacion.Multiplicacion();
+			
 			break;
 			
 			case 4:
 				
 			objDivision.Division_();
+			
 			break;
 			
+			case 6:
+				
+			objPorcentaje.Porcentaje_();			
 			
 			
 			
