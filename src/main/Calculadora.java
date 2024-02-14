@@ -15,143 +15,198 @@ public class Calculadora {
 
 	            switch (opcion) {
 	                case 1:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Suma();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Suma();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Suma();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Suma();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Suma();
+		    	            }
+	                	}
+	                	
 	                    break;
 
 	                case 2:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Resta();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Resta();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Resta();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Resta();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Resta();
+		    	            }
+	                	}
+	                	
 	                    break;
 
 	                case 3:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Multiplicacion();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Multiplicacion();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Multiplicacion();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Multiplicacion();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Multiplicacion();
+		    	            }
+	                	}
+	                	
 	                    break;
 
 	                case 4:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Division_();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Division_();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Division_();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Division_();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Division_();
+		    	            }
+	                	}
+	                	
 	                    break;
 
 	                case 5:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Raiz_();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Raiz_();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Raiz_();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Raiz_();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Raiz_();
+		    	            }
+	                	}
+	                	
 	                    break;
 
 	                case 6:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Porcentaje_();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Porcentaje_();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Porcentaje_();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Porcentaje_();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Porcentaje_();
+		    	            }
+	                	}
+	                	
 	                    break;
 	                    
 	                case 7:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.COS();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.COS();
-	    	            }
-	    	            
-	                	break;
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.COS();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.COS();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.COS();
+		    	            }
+	                	}
+	                	
+	                    break;
 	                	
 	                case 8:
 	                	
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.SIN();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.SIN();
-	    	            }
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.SIN();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.SIN();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.SIN();
+		    	            }
+	                	}
+	                	
+	                    break;
 	    	            
-	                	break;
 	                	
 	                case 9:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.TAN();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.TAN();
-	    	            }
-	    	            
-	                	break;
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.TAN();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.TAN();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.TAN();
+		    	            }
+	                	}
+	                	
+	                    break;
 	                	
 	                case 10:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.COTAN();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.COTAN();
-	    	            }
-	    	            
-	                	break;
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.COTAN();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.COTAN();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.COTAN();
+		    	            }
+	                	}
+	                	
+	                    break;
 	                	
 	                case 11:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.PI();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.PI();
-	    	            }
-	    	            
-	                	break;
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.PI();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.PI();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.PI();
+		    	            }
+	                	}
+	                	
+	                    break;
 	                	
 	                case 12:
-	                	System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
-	    	            opcion = lapiz.nextInt(); 
-	    	            if(opcion==2) {
-	    	            	objOperacion.setResultado(0);
-	    	            	objOperacion.Potencia();
-	    	            }else if(opcion==1) {
-	    	            	objOperacion.Potencia();
-	    	            }
-	    	            
-	                	break;
+	                	if(objOperacion.getResultado()==0) {
+	                		objOperacion.Potencia();
+	                	}else {
+	                		System.out.println("¿Desea realizar otra operación con el resultado anterior? (2 = No, 1 = Sí, 0 = No)");
+		    	            opcion = lapiz.nextInt(); 
+		    	            if(opcion==2) {
+		    	            	objOperacion.setResultado(0);
+		    	            	objOperacion.Potencia();
+		    	            }else if(opcion==1) {
+		    	            	objOperacion.Potencia();
+		    	            }
+	                	}
+	                	
+	                    break;
 	                	
 	                default:
 	                	System.out.println("No es una opcion, digite otra.");
